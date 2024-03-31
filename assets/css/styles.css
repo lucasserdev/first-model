@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* PADROES */
+
+.container {
+    max-width: 1270px;
+    margin: auto;
+}
+
+.bar {
+    height: 10px;
+    background-color: #8E93A6;
+}
+
+button {
+    padding: 15px 25px;
+    color: white;
+    background-color: #B15836;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+/* HEADER */
+
+header {
+    height: 690px;
+    background-image: url(../images/bg1.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    display: flex;
+}
+
+header .header-color {
+    background: linear-gradient(90deg, rgba(22,27,89,1) 18%, rgba(28,33,91,0.958420868347339) 48%, rgba(59,63,112,0.8575805322128851) 67%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 130px;
+}
+
+header .logo img {
+    width: 250px;
+}
+
+header h1 {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+header p {
+    font-size: 19px;
+    line-height: 28.5px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* SECTION SERVICE  */
+
+.service {
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+
+.service .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service h3 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #B15836;
+}
+
+.service h1 {
+    font-size: 51px;
+    line-height: 51px;
+    color: #161B59;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.service p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #242323;
+    font-weight: 400;
+}
+
+.service .list_service {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 25px;
+    margin-top: 50px;
+}
+
+.service .list_service .services {
+    border: 3px solid #161B59;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+}
+
+.services img {
+    width: 75px;
+    height: auto;
+}
+
+.services h1 {
+    font-size: 22px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    line-height: 22px;
+    text-align: center;
+}
+
+.services p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+    color: #242323;
+}
+
+.bar-arrow-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bar-arrow-bar .little-bar {
+    width: 120px;
+    height: 2px;
+    background-color: #161B59;
+}
+
+.bar-arrow-bar i {
+    color: #161B59;
+    font-size: 25px;
+}
+
+.services button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+/* SECTION ABOUT */
+
+.about {
+    background-color: #161B59;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    color: white;
+}
+
+.about .container {
+    display: flex;
+}
+
+.about .photo img{
+    width: 480px;
+    height: 530px;
+    border-bottom-right-radius: 50px;
+    margin-top: -120px;
+}
+
+.about-me {
+    margin-left: 40px;
+}
+
+.about-me h1{
+    font-size: 51px;
+    line-height: 51px;
+    font-weight: 600;
+}
+
+.about-me p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+/* SECTION MORE INFO */
+
+.more-infos {
+    background-image: url(../images/AnyConv.com__senior-marriage-using-laptop-living-room-1-scaled-1.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 730px;
+}
+
+.more-infos-bg-transparent {
+    position: absolute;
+    background-color: #2b2e65ea;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.more-infos .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-infos h3 {
+    margin-top: 100px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #B15836;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.more-infos h1 {
+    font-size: 51px;
+    line-height: 51px;
+    color: white;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.sugestions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.suges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 30px 30px 40px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    box-shadow: -2px 0px 1px #B15836;
+}
+
+.suges .icon {
+    background-color: #B15836;
+    font-size: 45px;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.suges h1 {
+    font-size: 26px;
+    line-height: 26px;
+    color: #242323;
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+
+.suges p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242323;
+}
+
+/* SECTION CONTACT */
+
+.contact {
+    padding: 100px 0;
+}
+
+.contact .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .logo img {
+    width: 250px;
+}
+
+.contact h1 {
+    font-size: 51px;
+    line-height: 51px;
+    color: #161B59;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.contact p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #242323;
+    font-weight: 400;
+}
+
+.contact button {
+    margin: 20px 0;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    padding: 20px 0;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+
+
+
