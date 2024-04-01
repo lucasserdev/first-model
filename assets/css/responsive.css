@@ -1,0 +1,234 @@
+@media (max-width: 1100px) {
+    .container {
+        padding: 0 15px
+    }
+
+    .service p{
+        text-align: center;
+    }
+
+    .service .list_service .services {
+        padding: 20px 20px 50px 20px;
+    }
+
+    .bar-arrow-bar .little-bar {
+        width: 60px;
+    }
+
+    .about {
+        padding-top: 40px;
+    }
+
+    .about .photo img {
+        margin-top: -20px;
+        width: 380px;
+        height: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        height: 710px;
+    }
+
+    header .header-color {
+        padding-top: 20px;
+    }
+    
+    header .container {
+        width: 50%;
+        margin: 0;
+    }
+
+    header h1 {
+        font-size: 38px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .service h3 {
+        font-size: 22px;
+    }
+
+    .about .photo {
+        display: flex;
+        align-items: center;
+    }
+
+    .about .photo img {
+        width: 300px;
+    }
+
+    .more-infos h3 {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .more-infos h1 {
+        margin-top: 20px;
+    }
+
+    .sugestions {
+        margin-top: 30px;
+        gap: 15px;
+    }
+
+    .suges {
+        padding: 30px 20px 40px 20px;
+    }
+
+    .more-infos h1 {
+        text-align: center;
+    }
+
+    .contact h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    header {
+        height: 600px;
+    }
+
+    header .header-color {
+        display: flex;
+        justify-content: center;
+    }
+
+    header .container {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    header h1 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    header h1 br {
+        display: none;
+    }
+
+    header p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    header p br {
+        display: none;
+    }
+
+    button {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .service h3 {
+        font-size: 16px;
+    }
+
+    .service h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .service p {
+        font-size: 16px;
+    }
+
+    .service .list_service {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about {
+        padding-top: 0;
+        padding: 0 10px;
+    }
+
+    .about .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about .photo {
+        width: 100%;
+    }
+
+    .about .photo img {
+        width: 100%;
+        margin-top: -46px;
+    }
+
+    .about-me {
+        margin: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .about-me h1 {
+        font-size: 30px;
+        margin: 25px 0;
+    }
+
+    .about-me p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .about-me p br {
+        display: none;
+    }
+
+    .more-infos {
+        height: 1200px;
+    }
+
+    .more-infos h3 {
+        font-size: 16px;
+    }
+
+    .more-infos h1 {
+        font-size: 30px;
+    }
+
+    .sugestions {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .suges .icon {
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .more-infos h1 {
+        font-size: 20px;
+    }
+
+    .suges p {
+        font-size: 14px;
+    }
+
+    .contact h1 {
+        font-size: 30px;
+    }
+
+    .contact p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
